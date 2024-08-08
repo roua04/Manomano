@@ -1,0 +1,9 @@
+<div class="category-banner">
+    <div class="category-list">
+      <div *ngFor="let category of categories" (click)="navigateToCategory(category)">
+        <span>{{ category.name }}</span>
+      </div>
+    </div>
+  </div>
+  
+  

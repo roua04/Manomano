@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: stretch;
+  }
+  
+  .left-section, .right-section {
+    height: 100%;
+  }
+  
+  .left-section {
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section {
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+  }
+  
