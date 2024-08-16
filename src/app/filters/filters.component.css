@@ -1,0 +1,170 @@
+
+.filter-container {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  margin-left: -60px;
+}
+.filter-title {
+  font-size: 20px; 
+  font-weight: 700; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+.filter-container p {
+  font-size: 10px; 
+  color: #666; 
+  margin-bottom: 20px; 
+}
+
+
+.custom-control {
+  display: flex;
+  align-items: center;
+}
+
+.custom-control-input {
+  margin-top: 0; 
+  margin-right: 8px; 
+}
+
+.custom-control-label {
+  margin-bottom: 0;
+  line-height: 1.5; 
+  vertical-align: middle; 
+}
+.store-container {
+  padding: top 20px
+}
+
+.filter-title {
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: #f39c12;
+}
+
+.custom-control-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex .form-control {
+  margin-right: 10px;
+}
+
+.d-flex .form-control:last-child {
+  margin-right: 0;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #2c2e41;
+}
+
+.custom-radio {
+  margin-right: 10px;
+  appearance: none;
+  width: 40px;
+  height: 20px;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.custom-radio:checked {
+  background-color: #007BFF;
+}
+
+.custom-radio:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-radio:checked:before {
+  transform: translateX(20px);
+}
+
+.icon {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.more-info {
+  margin-left: 15px;
+  color: #04101d;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+/* Style for the title */
+.form-group > label {
+  font-size: 20px; 
+  font-weight: bold;
+  color: #0c193a; 
+  margin-bottom: 10px;
+}
+
+
+.custom-control-label {
+  font-size: 14px; 
+  color: #333; 
+}
+
+
+
+
+.price-container {
+  margin-right: 10px; 
+  border: 1px solid #ccc; /* Border for the box */
+  padding: 10px; /* Padding inside the box */
+  border-radius: 4px; /* Rounded corners for the box */
+}
+
+.price-label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Space between the label and input */
+  font-size: 14px; /* Adjust size if needed */
+  color: #333; /* Label color */
+}
+
+.form-control {
+  width: 100%; /* Make sure input fields take full width of the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.d-flex {
+  display: flex;
+}

@@ -1,0 +1,141 @@
+
+<div class="container-fluid">
+    <div class="row">
+      <!-- Filter Component -->
+      <div class="col-md-3 filter-container">
+        <h3 class="filter-title">Meuble de cuisine</h3>
+        <p>Plus de 500 produits trouvés</p>
+
+
+        
+
+        <div class="radio-container">
+          <input type="radio" id="freeShipping" name="shipping" class="custom-radio">
+          <label for="freeShipping">
+            <img src="/src/app/assets/icone1.png" class="icon">
+            Livraison 48h gratuite
+          </label><br>
+          <a href="#" class="more-info">En savoir plus</a>
+        </div>
+        
+       
+        
+        <!-- Livraison Section -->
+        <div class="form-group">
+          <label>Livraison</label><br>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="freeShipping">
+            <p class="custom-control-label" for="freeShipping">Livraison gratuite</p>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="oneDayShipping">
+            <p class="custom-control-label" for="oneDayShipping">Livraison en 1 jour</p>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="relayPoint">
+            <p class="custom-control-label" for="relayPoint">Livraison à un point de relais</p>
+          </div>
+        </div><br>
+        
+  <!-- Price Section -->
+<div class="form-group">
+  <label>Prix (€)</label><br>
+  <div class="d-flex">
+    <div class="price-container">
+      <div class="price-label">Minimum</div>
+      <input type="number" class="form-control" placeholder="Minimum (€)" min="1" value="1">
+    </div>
+    <div class="price-container">
+      <div class="price-label">Maximum</div>
+      <input type="number" class="form-control" placeholder="Maximum (€)" max="4876" value="4876">
+    </div>
+  </div>
+</div>
+
+        <!-- Notes Section -->
+        <div class="form-group">
+          <label>Notes</label>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="fourStars">
+            <label class="custom-control-label" for="fourStars">
+              <span class="stars">★★★★☆</span> 4 et plus (2344)
+            </label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="threeStars">
+            <label class="custom-control-label" for="threeStars">
+              <span class="stars">★★★☆☆</span> 3 et plus (3577)
+            </label>
+          </div>
+        </div>
+  
+        <!-- Marques Section -->
+<div class="form-group">
+  <label>Marques</label>
+  <!-- Dynamic list of brands -->
+  <div *ngFor="let brand of brands" class="custom-control custom-checkbox mt-2">
+    <input type="checkbox" class="custom-control-input" [id]="brand.id">
+    <label class="custom-control-label" [for]="brand.id">{{ brand.name }} ({{ brand.count }})</label>
+  </div>
+  
+  <!-- Voir plus arrow -->
+  <div class="mt-2">
+    <a href="#" class="text-primary"><i class="bi bi-chevron-down"></i> Voir plus</a>
+  </div>
+</div>
+
+
+<!-- Vendeur Section -->
+<div class="form-group mt-4">
+  <label>Vendeur</label>
+
+  
+  <!-- Dynamic list of vendors -->
+  <div *ngFor="let  vendeur of  vendeur" class="custom-control custom-checkbox mt-2">
+    <input type="checkbox" class="custom-control-input" [id]="vendeur.id">
+    <label class="custom-control-label" [for]="vendeur.id">{{ vendeur.name }} ({{ vendeur.count }})</label>
+  </div>
+  
+  <!-- Voir plus arrow for Vendeur -->
+  <div class="mt-2">
+    <a href="#" class="text-primary"><i class="bi bi-chevron-down"></i> Voir plus</a>
+  </div>
+</div>
+
+
+
+<div class="form-group mt-4">
+  <label>Label/Certification</label>
+  
+  <!-- Eco-responsable Checkbox -->
+  <div class="custom-control custom-checkbox mt-2">
+    <input type="checkbox" class="custom-control-input" id="eco-responsable">
+    <label class="custom-control-label" for="eco-responsable">Eco-responsable</label>
+  </div>
+  
+  <!-- En savoir plus link -->
+  <div class="mt-2">
+    <a href="#" class="text-primary">En savoir plus</a>
+  </div>
+  
+  <!-- Origine France Checkbox -->
+  <div class="custom-control custom-checkbox mt-2">
+    <input type="checkbox" class="custom-control-input" id="origine-france">
+    <label class="custom-control-label" for="origine-france">Origine France</label>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+      <!-- Store Component -->
+      <div class="col-md-9 store-container">
+        <!-- Your store component content goes here -->
+      </div>
+    </div>
+  </div>
+

@@ -1,0 +1,422 @@
+/* Container styling */
+.reassurance-container {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Section styling */
+  .reassurance-section {
+    max-width: 1424px;
+    margin: 0 auto; /* Center the section */
+  }
+  
+  /* List styling */
+  .reassurance-list {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap as needed */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Item styling */
+  .reassurance-item {
+    margin: 0 8px 16px;
+    flex: 1 1 calc(33.333% - 16px); /* Adjust width for 3 items per row */
+    max-width: calc(33.333% - 16px); /* Adjust width for 3 items per row */
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .reassurance-item img {
+    display: block;
+    margin: 0 auto;
+    width: 72px; /* Adjusted width for visibility */
+    height: 72px; /* Adjusted height for visibility */
+  }
+  
+  /* Text styling */
+  .reassurance-text p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    margin: 0; /* Remove default margin */
+  }
+
+
+
+  .b2b-container {
+    padding: 20px 16px;
+    justify-content: flex-start;
+  }
+  
+  
+.b2b-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    position: relative;
+    border: 1px solid #fff8e3; /* Frame around the content */
+    padding: 10px; /* Space inside the frame */
+    background-color:#fff8e3; /* Light pink background */
+
+  }
+  
+  .b2b-text-wrapper {
+    flex: 1; /* Allow text to take available space */
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  .b2b-header,
+  .b2b-subheader,
+  .b2b-reserved {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  .b2b-header {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Makes the text bold */
+    font-size: inherit; /* Ensures the font size stays the same as before */
+  }
+  .b2b-subheader {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  
+  .b2b-reserved {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #505971;
+  }
+  
+  .b2b-button {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #0c193a;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .b2b-button-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .b2b-logo {
+    margin-right: 8px; /* Space between the logo and text */
+  }
+  
+  .b2b-button-text {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  
+/* Main container styling */
+/* Main container styling */
+.newsletter-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Remove padding at the top */
+  margin: -130px 0 0 0; /* Use negative margin to move the container up */
+  background-color: #fff; /* White background */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's width and height */
+}
+
+/* Image styling */
+.newsletter-image {
+  margin-left: -150px; /* Space between image and text */
+  transform: translateY(170px); /* Moves the image down by 20px */
+  height: 135px; /* Ensure consistent image height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+/* Container for the text and form */
+.newsletter-content {
+  flex: 1; /* Allow the text and form to take available space */
+  max-width: 600px; /* Restrict width to avoid overflow */
+  text-align: left; /* Left align text for consistency */
+}
+
+/* Header and Subheader styling */
+.newsletter-header {
+  font-size: 16px; /* Adjust size for the main header */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #0c193a; /* Dark blue color */
+  margin-bottom: 10px; /* Space below the header */
+  line-height: 24px; /* Line height for the header */
+  display: block; /* Ensure it's on a new line */
+}
+
+.newsletter-subheader {
+  font-size: 14px; /* Smaller size for subheader */
+  color: #0c193a; /* Same color as header */
+  margin-bottom: 20px; /* Space below subheader */
+  line-height: 20px; /* Line height for the subheader */
+  display: block; /* Ensure it's on a new line */
+}
+
+/* Form container styling */
+.newsletter-form {
+  display: flex;
+  flex-direction: row; /* Arrange input and button horizontally */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-right: 10px; /* Space between input and button */
+}
+
+.newsletter-input {
+  width: 250px; /* Wider input field */
+  padding: 10px; /* Padding for comfort */
+  border: 2px solid #00a859; /* Green border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.input-label {
+  position: absolute;
+  top: -20px; /* Move the label above the input */
+  left: 10px; /* Align label with input padding */
+  font-size: 14px;
+  color: #0c193a;
+}
+
+/* Button styling */
+.newsletter-button {
+  background-color: #00a859; /* Green background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Notice and terms styling */
+.email-notice {
+  font-size: 12px;
+  color: #505971;
+  margin-bottom: 5px;
+}
+
+.learn-more a {
+  color: #00a859; /* Green link color */
+  text-decoration: none;
+}
+
+.promo-terms {
+  font-size: 12px;
+  color: #505971;
+}
+
+
+
+
+
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #0073e6; /* Blue background like ManoMano */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  background-color: white;
+  padding: 5px;
+}
+
+.header .search-bar input {
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+
+.header .search-bar .icon {
+  background-color: #00aaff; /* Light blue icon background */
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: fixed;
+  top: 80px; /* Adjust based on header height */
+  left: 0;
+  height: 100%;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0c193a;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #0073e6;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #00aaff;
+  color: white;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 280px; /* Adjust for sidebar width */
+  padding: 20px;
+}
+
+.main-content h1 {
+  font-size: 24px;
+  color: #0c193a;
+  margin-bottom: 20px;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  color: #0c193a;
+  margin-bottom: 5px;
+}
+
+.product-card .price {
+  font-size: 20px;
+  color: #0073e6;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card .delivery {
+  font-size: 14px;
+  color: #666;
+}
+
+.product-card .buy-btn {
+  background-color: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.product-card .buy-btn:hover {
+  background-color: #0073e6;
+}
+
+/* Hover Effect for Icons in Sidebar or Header */
+.icon-group {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.icon-group:hover {
+  border: 2px solid #0073e6;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+}

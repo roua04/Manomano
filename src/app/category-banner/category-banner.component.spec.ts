@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Router } from '@angular/router';
 import { CategoryBannerComponent } from './category-banner.component';
+import { Title } from '@angular/platform-browser';
 
 // Mock Router
 class RouterStub {
@@ -33,9 +34,9 @@ describe('CategoryBannerComponent', () => {
   });
 
   it('should call Router.navigate on navigateToCategory', () => {
-    const category = { name: 'Desserte de cuisine' };
+    const category = {Title: 'Desserte de cuisine' };
     component.navigateToCategory(category);
-    expect(navigateSpy).toHaveBeenCalledWith(['/category', category.name]);
+    expect(navigateSpy).toHaveBeenCalledWith(['/category', category.Title]);
   });
 
   it('should display categories in the template', () => {

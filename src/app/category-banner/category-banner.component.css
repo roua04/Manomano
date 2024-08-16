@@ -1,27 +1,113 @@
+*,
+*::before,
+*::after {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+}
 
-    .category-banner {
-        padding: 10px;
-        background-color: #f0f0f0;
-      }
-      
-      .category-list {
-        display: flex;            
-        overflow-x: auto;         
-        white-space: nowrap;      
-      }
-      
-      .category-list div {
-        cursor: pointer;
-        padding: 10px;
-        margin: 0 5px;            
-       border-radius: 24px ;
-        border-radius: 4px;
-        background-color: #fef7f7;
-        display: inline-block;   
-      }
-      
-      .category-list span {
-        display: block;          
-        text-align: center;
-      }
-      
+.category-carousel {
+  width: 100%;
+  max-width: 1000px; /* Ajuste la largeur si nécessaire */
+  margin: 0 auto;
+  position: relative; /* Assure que le conteneur ne bouge pas */
+  overflow: hidden; /* Masque les éléments qui dépassent */
+  animation: none !important;
+  transition: none !important;
+}
+
+*,
+*::before,
+*::after {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+/* Suppression des effets de hover sur les .category-item */
+.category-item:hover {
+  transform: none !important; /* Suppression de l'agrandissement */
+  box-shadow: none !important; /* Suppression de l'ombre sur hover */
+}
+
+/* Suppression des transitions sur les éléments slick */
+.slick-slide,
+.slick-track,
+.slick-list {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Suppression de l'animation sur les boutons radio personnalisés */
+.custom-radio:checked:before {
+  transition: none !important;
+  transform: none !important;
+}
+/* Supprimer les animations et transitions globales dans .category-carousel */
+.category-carousel * {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+}
+
+/* Assurez-vous qu'aucun mouvement n'est appliqué sur la page */
+.slick-slide,
+.slick-track,
+.slick-list {
+  transition: none !important;
+  animation: none !important;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: none !important; /* Désactive les transitions */
+}
+
+.category-item {
+  display: flex;
+  flex-direction: row; /* Alignement des éléments en ligne */
+  align-items: center; /* Alignement des éléments verticalement au centre */
+  border-radius: 32px; /* Bordures arrondies */
+  padding: 3px; /* Espacement interne */
+  border: 1px solid #ecedf0; /* Bordure autour du conteneur */
+  background-color: #fff; /* Couleur de fond blanche */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.039); /* Ombre légère */
+  box-sizing: border-box; /* Inclut les bordures et le padding dans les dimensions */
+  margin-right: 15px; /* Espacement entre les éléments du conteneur */
+  animation: none !important; /* Désactive les animations */
+}
+
+.category-item:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.category-item img {
+  border: 1px solid #ecedf0; /* Bordure autour de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  padding: 4px; /* Espacement interne */
+  width: 40px; /* Largeur de l'image */
+  height: 40px; /* Hauteur de l'image */
+  margin-right: 8px; /* Espacement entre l'image et le titre */
+  object-fit: cover; /* Ajuste l'image pour remplir le cercle */
+}
+
+.category-item h3 {
+  white-space: nowrap; /* Empêche le retour à la ligne */
+  margin-right: 8px; /* Espacement entre le titre et l'image */
+  color: #0c193a; /* Couleur du texte */
+  font-size: 14px; /* Taille de la police */
+  font-weight: 600; /* Poids de la police */
+  line-height: 20px; /* Hauteur de ligne */
+  letter-spacing: 0; /* Espacement des lettres */
+  text-align: left; /* Alignement du texte à gauche */
+}
+
+.slick-slide,
+.slick-track,
+.slick-list {
+  transition: none !important;
+  animation: none !important;
+}
