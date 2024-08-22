@@ -7,23 +7,25 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { FiltersComponent } from './filters/filters.component';
 import { CategoryBannerComponent } from './category-banner/category-banner.component';
 import { FooterComponent } from './footer/footer.component';
-
-
+import { ProductListComponent } from './product-list/product-list.component';
+import { BannerComponent } from './banner/banner.component';
+import { RouteComponent } from './route/route.component';
 
 @NgModule({
-  declarations:[ 
+  declarations: [ 
     AppComponent,
     HeaderComponent,
     ProductCardComponent,
     FiltersComponent,
     CategoryBannerComponent,
-    FooterComponent
-    
+    FooterComponent,
+    ProductListComponent,
+    BannerComponent,
+    RouteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-  
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],

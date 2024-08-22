@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    gap: 20px; /* Add spacing between filter and product card */
+  }
+  app-category-banner,
+  app-product-card {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+  }
+  
+  app-category-banner * {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+  }
+  
+  app-product-card * {
+  animation: none !important;
+  transition: none !important;
+  transform: none !important;
+  }
+  
