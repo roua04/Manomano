@@ -243,7 +243,7 @@
   height: auto;
 }
 .info-links, .extra-sections, .app-info, .payment-info, .social-media {
-  margin-bottom: 20px; /* Adds space between the vertical blocks */
+  margin-bottom: 20px; 
   padding: 10px;
 }
 

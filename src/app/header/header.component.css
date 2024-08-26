@@ -24,11 +24,11 @@
   padding: 0 16px;
   text-align: center;
   overflow: hidden;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
-/* Hide scrollbar in webkit browsers */
+
 .pre-header-button::-webkit-scrollbar {
   display: none;
 }
@@ -164,12 +164,12 @@ header.nav-bar {
   color: #fff; 
 }
 .icon-group:hover, .icon-group:active {
-  background-color: #007bff; /* Blue background on hover or click */
-  color: #fff; /* White font color on hover or click */
+  background-color: #007bff; 
+  color: #fff; 
 }
 
 .icon-group i, .icon-group span {
-  transition: none; /* Ensure no transition is applied to icons and text */
+  transition: none; 
 }
 
 
@@ -227,12 +227,12 @@ header.nav-bar {
   .menu-item:nth-child(3) a {
     color: rgb(79, 42, 3);}
 
-/* Breadcrumb container styling */
+
 .breadcrumb-container {
   margin: 10px 50px; 
 }
 
-/* Breadcrumb list styling */
+
 .breadcrumb {
   padding: 0;
   margin: 0;
@@ -253,7 +253,7 @@ header.nav-bar {
   text-decoration: underline; 
 }
 
-/* Styling for the last breadcrumb item */
+
 .breadcrumb-item.active {
   color: rgb(5, 114, 151); 
 
