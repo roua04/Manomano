@@ -113,12 +113,10 @@
 .custom-radio:checked:before {
   transform: translateX(20px);
 }
-
 .icon {
   margin-right: 8px;
   vertical-align: middle;
 }
-
 .more-info {
   margin-left: 15px;
   color: #04101d;
@@ -128,43 +126,32 @@
 }
 
 
-
-/* Style for the title */
 .form-group > label {
   font-size: 20px; 
   font-weight: bold;
-  color: #0c193a; 
+  color: #050539; 
   margin-bottom: 10px;
 }
-
-
 .custom-control-label {
   font-size: 14px; 
-  color: #333; 
+  color: #333333; 
 }
-
-
-
-
 .price-container {
-  margin-right: 10px; 
-  border: 1px solid #ccc; /* Border for the box */
-  padding: 10px; /* Padding inside the box */
-  border-radius: 4px; /* Rounded corners for the box */
+  margin-right:5px; 
+  border: 1px solid #050505; 
+  padding: 10px; 
+  border-radius: 4px; 
 }
-
 .price-label {
   font-weight: bold;
-  margin-bottom: 5px; /* Space between the label and input */
-  font-size: 14px; /* Adjust size if needed */
-  color: #333; /* Label color */
+  margin-bottom: 5px; 
+  font-size: 14px;
+  color: #333333; 
 }
-
 .form-control {
-  width: 100%; /* Make sure input fields take full width of the container */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  width: 100%;
+  box-sizing: border-box; 
 }
-
 .d-flex {
   display: flex;
 }
